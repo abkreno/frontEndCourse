@@ -1,0 +1,150 @@
+*{
+  color: white;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.banner{
+  background: url('/img/banner.jpg');
+  background-size: cover;
+  height: 1000px;
+}
+
+.round-corners{
+  border-radius: 25px;
+}
+
+.menu > li {
+    display: inline-block;
+}
+
+.top-bar{
+  padding-bottom: 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.top-bar, .dropdown.menu{
+  background: transparent;
+}
+
+.top-bar-title, .menu-item{
+  padding: 40px 0px;
+  margin: 0px 10px;
+}
+
+.top-bar-title{
+  margin-left: 50px;
+}
+
+.top-bar-title > .subtitle{
+  font-size: 0.6rem;
+  font-style: italic;
+  width: 150px;
+}
+
+.menu-item.border-bottom{
+  border-bottom: 3px solid transparent;
+}
+
+.menu-item.border-bottom:hover{
+  border-bottom: 3px solid white;
+}
+
+ul > li > a.menu-item-link{
+  padding-left: 0;
+  padding-right: 0;
+  color: white;
+}
+
+.input-search{
+  padding: 20px;
+}
+
+.banner-container{
+  position: relative;
+  text-align: right;
+}
+
+.banner-btn{
+  display: inline-block;
+  width: 240px;
+  background-color: #8900BB;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+}
+.banner-btn:hover{
+  color: #8900BB;
+  background-color: white;
+}
+
+.hiw{
+  background: #343950;
+  padding: 50px 150px;
+  position: relative;
+  border-top: 5px solid #383F59;
+}
+
+.hiw-content{
+  padding: 30px;
+}
+
+.hiw-title{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.blue-circle-div {
+    background: none repeat scroll 0 0 #343950;
+    border-radius: 110px;
+    display: block;
+    height: 140px;
+    left: 45%;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    top: 82%;
+    vertical-align: middle;
+}
+
+.blue-circle-content {
+    display: block;
+    margin: 0 auto;
+    padding: 60px 37px 37px;
+    text-align: center;
+    vertical-align: middle;
+    color: transparent;
+}
+
+.serv{
+  background:  url('/img/img1.jpg');
+  background-size: cover;
+  background-position:0% 80%;
+}
+.serv-content{
+  background: rgba(221, 35, 95, 0.5);
+  height: 700px;
+  padding-top: 260px;
+}
+
+.serv-text{
+  margin: 0 auto;
+  text-align: center;
+  width: 45%;
+}
+
+.serv-btn{
+  display: inline-block;
+  width: 280px;
+  font-weight: bold;
+  padding: 15px 30px;
+  color: #DC235F;
+  background-color: white;
+}
+.serv-btn:hover{
+  background-color: #DC235F;
+  color: white;
+}

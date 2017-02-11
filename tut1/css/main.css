@@ -1,0 +1,28 @@
+.navbar{
+  widows: 100%;
+  padding:10px 30px;
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+li{
+  color: #2b2b42;
+  padding: 0 10px;
+  display: inline-block;
+}
+li > a{
+  text-decoration: none;
+}
+.logo > img{
+}
+.logo{
+  float: left;
+}
+.plus {
+    margin-left: 30%;
+}
+.nav-right{
+  float: right;
+  padding-right: 40px;
+}
