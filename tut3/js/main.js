@@ -1,5 +1,5 @@
 $(document).foundation();
-$(document).ready(function(){
+$(document).ready(function() {
     var currColor = 'gray';
 
     $('.btn').click(function() {
@@ -8,5 +8,9 @@ $(document).ready(function(){
 
     $('.box').click(function() {
         $(this).css({background: currColor})
+    });
+
+    $('#myInput').keyup(function(e) {
+        $('#myHeading').text($(this).val());
     });
 });
