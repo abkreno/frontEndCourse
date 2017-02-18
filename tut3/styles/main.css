@@ -1,8 +1,39 @@
-.box{
-  display: flex;
-  justify-content: space-around;
+.box-container{
+  margin-top: 10px;
+  text-align: center;
 }
-.box .item{
+.box{
+  display: inline-block;
+  background: gray;
+  border-radius: 3px;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  transition: background 0.5s;
+}
+.btn-container{
+  text-align: center;
+  margin-top: 10px;
+}
+.btn{
+  cursor: pointer;
+  border: 1px;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.btn:hover{
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+#red{
   background: red;
-
+}
+#green{
+  background: green;
+}
+#blue{
+  background: blue;
 }
