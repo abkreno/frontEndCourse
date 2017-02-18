@@ -1,0 +1,15 @@
+{
+  "name": "tut3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "browser-sync start --server --files='*.html, js/*.js, styles/*.css'",
+    "test": ""
+  },
+  "author": "Abkreno",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
