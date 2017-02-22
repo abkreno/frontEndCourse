@@ -1,15 +1,17 @@
-div.background-slideshow img {
+div.background-slideshow .slide {
    display: none;
    z-index: 1;
    width: 100%;
-   background-size: cover;
+   height: 400px;
    vertical-align: middle;
+   background-size: cover;
+   background-position: 50%;
 }
-div.background-slideshow img.current {
-    display: inline;
+div.background-slideshow .slide.current {
+    display: block;
     z-index: 2;
 }
-div.background-slideshow img.previous {
+div.background-slideshow .slide.previous {
     z-index: 1;
 }
 
