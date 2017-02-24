@@ -1,4 +1,3 @@
-$(document).foundation();
 $(document).ready(function() {
     $('#background-slideshow .slide:first').addClass('current');
     $('#next').click(function(){ return rotateImages(backward=false); });
