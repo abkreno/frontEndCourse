@@ -1,0 +1,12 @@
+{
+  "name": "tut4",
+  "version": "1.0.0",
+  "description": "website using bem",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "browser-sync start --server --files='*.html, css/*.css, js/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abkreno",
+  "license": "ISC"
+}
